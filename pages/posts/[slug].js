@@ -41,6 +41,7 @@ export default function Post({ post, morePosts, preview }) {
                 author={post.author}
               />
               <PostBody content={post.body} />
+              <pre><code>{JSON.stringify(post.recipe, null, 2)}</code></pre>
             </article>
 
             <Comments comments={post.comments} />

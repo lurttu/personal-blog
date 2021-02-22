@@ -46,6 +46,12 @@ export default {
       name: 'body',
       title: 'Body',
       type: 'blockContent'
+    },
+    {
+      name: 'recipe',
+      title: 'Recipe',
+      type: 'reference',
+      to: {type: 'recipe'}
     }
   ],
 
